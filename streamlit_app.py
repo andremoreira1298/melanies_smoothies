@@ -10,7 +10,7 @@ st.write(
   """Choose the fruits you want in your custom Smoothie!
   """
 )
-
+ 
 cnx = st.connection("snowflake")
 session = cnx.session()
 
